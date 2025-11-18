@@ -24,11 +24,50 @@ body {
 
 header {
   display: flex;
-  position: fixed;
+  
   background-color: #222222;
   color: whitesmoke;
   width: 100%;
   height: 75px;
   text-transform: uppercase;
   font-family: "teko", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  padding: 10px 20px;
+  width: 100vw;
+  z-index: 100;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  display: inline;
+  padding: 0 10px;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  float: left;
+  font-family: "Oswald", serif;
+  font-size: 3em;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.Swissimage {
+  background-image: linear-gradient( to top, rgba(160, 160, 160, 0.75), rgba(10, 0, 160, 0.2)), url("https://images.pexels.com/photos/106155/germany-duisburg-tiger-turtle-106155.jpeg?cs=srgb&dl=pexels-pixabay-106155.jpg&fm=jpg");
+  background-size: cover;
+  position: center;
+  width: 100vw;
+  height: 100vh;
 }
