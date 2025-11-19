@@ -147,10 +147,31 @@ footer a {
     max-width: 100vw;
   }
   
+  .Logo {
+    font-size: 2em;
+  }
+  
   a:hover {
     color: whitesmoke;
   }
   
   a:active {
     color: orangered;
+  }
+
+  .Swissimage p{
+    font-size: 30vw;
+  }
+  
+  .articletitle {
+    width: 98vw;
+    text-align: left;
+  }
+  
+  .articlequote {
+    font-size: 12vw;
+  }
+
+  .text {
+    max-width: 70vw;
   }
