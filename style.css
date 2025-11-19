@@ -60,6 +60,7 @@ nav a {
 .navlinks {
   display: flex;
   justify-content: space-between;
+  font-family: "merriweather", serif;
   align-items: center;
   list-style: none;
 }
@@ -91,7 +92,7 @@ h1 {
 }
 
 .articlequote{
-  font-family: "teko", sans-serif;
+  font-family: "merriweather", sans-serif;
   text-transform: uppercase;
   margin: 50px 20px 50px 50px;
   font-size: 2em;
@@ -115,6 +116,7 @@ h1 {
   column-count: 2;
   column-gap: 48px;
   text-align: justify;
+  font-family: "merriweather", serif;
   width: 80vw;
   min-width: 1000px;
   margin: 48px auto;
