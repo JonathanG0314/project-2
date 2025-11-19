@@ -97,3 +97,13 @@ h1 {
   font-size: 2em;
 }
 
+.articleimage {
+  background: url("https://med.stanford.edu/news/insights/2018/08/this-is-your-brain-on-roller-coasters/_jcr_content/cq:featuredimage.coreimg.jpg/1746604385106/lksc.jpg");
+  background-size: cover;
+  position: center;
+  /*height: auto;*/
+  display: block;
+  margin: 50px 20px 50px 300px;
+  width: 70%;
+  height: 600px;
+}
