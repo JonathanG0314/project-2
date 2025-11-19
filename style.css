@@ -125,6 +125,10 @@ h1 {
   text-decoration: none;
   font-family: "Oswald", sans-serif;
 }
+.socials {
+  justify-content: end;
+  gap: 10px;
+}
 
 footer {
   display: flex;
@@ -142,11 +146,13 @@ footer a {
 }
 
 
+
 @media only screen and (max-width: 480px){
   html {
     font-size: 16px; 
     text-align:left; 
   }
+  
   
   .Logo {
     font-size: 2em;
@@ -174,5 +180,30 @@ footer a {
   }
 
   .text {
-    max-width: 70vw;
+    margin: 5vw;
+    width: 75vw;
+    min-width: 200px;
+    justify-content: center;
+    column-count: 1;
+  }
+  
+  .navlinks {
+    height: 1px;
+    margin: -1px;
+    width: 1px;
+  }
+  
+  .Logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .articleimage {
+    display:flex; 
+    justify-content: center; 
+  }
+  
+   footer {
+    flex-direction: column;
+    columns: 1;
   }
