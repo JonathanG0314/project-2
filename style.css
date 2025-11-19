@@ -193,8 +193,8 @@ footer a {
   }
 
   .text {
-    margin: 5vw;
-    width: 75vw;
+    margin: 10vw;
+    width: 80vw;
     min-width: 200px;
     justify-content: center;
     column-count: 1;
@@ -212,7 +212,7 @@ footer a {
   }
   
   .articleimage {
-    display:flex; 
+    display: flex; 
     justify-content: center; 
   }
   
