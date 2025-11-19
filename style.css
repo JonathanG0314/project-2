@@ -37,6 +37,7 @@ nav {
   display: flex;
   justify-content: space-between;
   float: right;
+  font-family: "merriweather", serif;
   padding: 10px 20px;
   width: 100vw;
   z-index: 100;
@@ -60,7 +61,6 @@ nav a {
 .navlinks {
   display: flex;
   justify-content: space-between;
-  font-family: "merriweather", serif;
   align-items: center;
   list-style: none;
 }
@@ -75,7 +75,7 @@ nav a {
 
 .articletitle { 
   display: flex;
-  font-family: "boston", serif;
+  font-family: "Merriweather", serif;
   font-size: 10em;
   height: 102vh;
   flex-direction: row-reverse;
@@ -92,7 +92,7 @@ h1 {
 }
 
 .articlequote{
-  font-family: "merriweather", sans-serif;
+  font-family: " Montserrat", sans-serif;
   text-transform: uppercase;
   margin: 50px 20px 50px 50px;
   font-size: 2em;
@@ -116,7 +116,8 @@ h1 {
   column-count: 2;
   column-gap: 48px;
   text-align: justify;
-  font-family: "merriweather", serif;
+  font-family: "Montserrat", serif;
+
   width: 80vw;
   min-width: 1000px;
   margin: 48px auto;
