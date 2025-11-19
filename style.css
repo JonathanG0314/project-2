@@ -24,7 +24,7 @@ body {
 
 header {
   display: flex;
-  
+  position: auto;
   background-color: #222222;
   color: whitesmoke;
   width: 100%;
@@ -65,22 +65,34 @@ nav a {
 }
 
 .Swissimage {
-  background-image: linear-gradient( to top, rgba(160, 160, 160, 0.75), rgba(10, 0, 160, 0.2)), url("https://images.pexels.com/photos/106155/germany-duisburg-tiger-turtle-106155.jpeg?cs=srgb&dl=pexels-pixabay-106155.jpg&fm=jpg");
+  background-image: linear-gradient( to top, rgba(160, 160, 160, 0.75), rgba(10, 0, 160, 0.2)), url("https://lp-cms-production.imgix.net/2019-06/shutterstock_160155083.jpg?auto=format,compress&q=72&w=1095&fit=crop&crop=faces,edges");
   background-size: cover;
   position: center;
   width: 100vw;
   height: 100vh;
 }
 
-.articletitle, {
+.articletitle { 
   display: flex;
   font-family: "boston", serif;
   font-size: 10em;
-  height: 70vh;
+  height: 102vh;
   flex-direction: row-reverse;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: start;
   align-self: center;
   color: whitesmoke;
   padding: 0 10px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: auto;
+}
+
+.articlequote {
+  font-family: "teko", sans-serif;
+  text-transform: uppercase;
+  margin: 50px 20px 50px 50px;
+  font-size: 2em;
 }
