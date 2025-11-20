@@ -105,7 +105,7 @@ h1 {
   position: center;
   /*height: auto;*/
   display: block;
-  margin: 50px 20px 50px 300px;
+  margin: 7% 20% 10% 15%;
   width: 70%;
   height: 600px;
 }
@@ -213,10 +213,11 @@ footer a {
   
   .articleimage {
     display: flex; 
-    justify-content: center; 
+    position: center;
   }
   
    footer {
     flex-direction: column;
     columns: 1;
   }
+
